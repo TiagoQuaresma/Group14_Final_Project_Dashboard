@@ -8,5 +8,6 @@ dash-bootstrap-components
 numpy
 pandas
 plotly
+raceplotly
 requests
 streamlit
