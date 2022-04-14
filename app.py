@@ -158,6 +158,8 @@ fig_race = fig_race.plot(item_label = 'Top 10 Countries', value_label = 'Share (
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 app.layout = html.Div([
 #TITLE
     dbc.Row([
