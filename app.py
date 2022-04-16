@@ -262,7 +262,7 @@ app.layout = html.Div([
                 dbc.Row(
                     dbc.Col(
                         html.Div([
-                            html.P('On the map above you can inspect the various sources of electricity used by each country and see the differences between them by source! Choose the different countries from the buttons above and check out the discrepancies!',style={'text-align':'justify'})
+                            html.P('On the map above you can inspect the various sources of electricity used by each country and see the differences between them by source. Choose the different countries from the buttons above and check out the discrepancies!',style={'text-align':'justify'})
                         ],className='box_comment'),
                         width={"size": 8, "offset": 2},
                     )
